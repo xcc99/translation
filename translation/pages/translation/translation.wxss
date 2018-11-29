@@ -1,0 +1,19 @@
+.page-translation {
+   background-color: #f8f8ff;
+}
+.tra-content{
+   background-color: #fff;
+}
+.item-lang,.title {
+  padding: 15rpx;
+  margin-left: 40rpx;
+  border-bottom: 1px solid 	#DCDCDC;
+}
+.title {
+  color: 	#808080; 
+  font-size: 14px;
+}
+.item-lang .icon-choose{
+  float: right;
+  color: #DCDCDC;
+}

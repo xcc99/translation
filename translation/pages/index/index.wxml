@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='change'>
+   <navigator url='../translation/translation'>
+     <text>到{{curLang.chs}}</text> 
+     <text class='iconfont icon-down'></text>
+   </navigator>
+  </view>
+  <view class='translate'>
+    <view class='ipt'>
+    <!-- 当用户点击确定事件 同时要检测有没有内容，有内容就有x没有内容就没有x  把用户输入的内容存到value里面，方便翻译-->
+      <textarea placeholder='需要翻译点什么呢...' bindconfirm='onConfirm' bindinput='onInput' value="{{query}}" >
+    </textarea>
+     <text class='iconfont icon-close'  bindtap="onTapClose" wx:if="{{query.length > 0}}"></text>
+     <!-- <text class='iconfont icon-switch1' bindtap='switchLang'></text> -->
+    </view>
+    <!-- 译文不止一条的时候要遍历 -->
+    <view class='tra'>
+      <view class='tra-title'>译文</view>
+      <!-- 翻译结果可能有几条，因此要进行遍历；绑定一个key值,便于复用 -->
+      <view class='tra-content' wx:for="{{result}}" wx:key='index'>
+        <!-- selectable为真表示可以复制 -->
+        <view>
+          <text selectable='true' class='item-text'>{{item.dst}}</text>
+          <text class='iconfont icon-copy' bindtap='copyResult'></text>
+        </view>
+       
+    </view>
+    </view>
+    
+  </view>
+  <view class='footer'>
+    by @佩琪
+  </view>
+</view>

@@ -1,0 +1,31 @@
+.page-history{
+  height: 100vh;
+  background-color: #f8f8ff;
+}
+.items {
+  border: 1rpx solid 	#4B0082;
+  margin:10rpx 40rpx;
+  padding: 5rpx;
+  border-radius: 10rpx;
+  
+}
+text {
+  display: block;
+  font-size: 28rpx; 
+  background-color: #fff;
+
+}
+.query {
+color: 	#696969;
+padding-bottom: 10rpx;
+}
+.result {
+  color:	#A9A9A9;
+}
+.title {
+  color: #808080;
+  font-size: 14px;
+    padding: 15rpx;
+  margin-left: 40rpx;
+
+}

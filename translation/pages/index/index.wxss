@@ -1,0 +1,69 @@
+/**index.wxss**/
+.change {
+  background-color: #f8f8ff;
+  padding: 10rpx;
+}
+navigator {
+  /* background-color: #DCDCDC; */
+  color: #708090;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  display: inline-block;
+  margin-left: 20rpx;
+  /* border: 1px solid silver; */
+ 
+}
+.change .iconfont {
+  vertical-align: middle;
+}
+.translate .ipt {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #708090;
+    position: relative;
+}
+.translate  textarea{
+  padding-left: 40rpx;
+  padding-top: 20rpx;
+  display: inline-block;
+  width: 670rpx;
+  height: 300rpx;
+}
+.translate .iconfont {
+  display: inline-block;
+  width: 40rpx;
+}
+.icon-close {
+  vertical-align: top;
+}
+.icon-switch1 {
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+  color: #696969;
+  font-size: 28rpx;
+}
+.tra {
+  background-color: #fff;
+  padding: 20rpx 40rpx 80rpx;  
+}
+.tra-title{
+  color: #696969;
+}
+.tra .item-text {
+  margin-left: 20rpx;
+  padding: 10rpx;
+}
+.icon-copy {
+  font-size: 28rpx;
+  padding: 10rpx 0 0 20rpx;
+  color:	#C0C0C0; 
+}
+.footer {
+  position: absolute;
+  bottom: 10rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #708090;
+  font-size: 20rpx;
+}

@@ -1,0 +1,16 @@
+
+<!--translation.wxml-->
+<view class="container page-translation">
+  <view class='tra-content'>
+    <view class='title'>翻译成</view> <!--标题 -->
+      <!-- 下面是语言的列表 -->
+    <view wx:for="{{langList}}" wx:key="index" class='lang-list' wx:for-item="language" bindtap='onTapItem' hover-class='view-hover' data-lang="{{language.lang}}" data-chs="{{language.chs}}" data-index="{{index}}">
+        <view class='item-lang'>
+          <text class='text'>{{language.chs}}</text> <!--展示中文名字 -->
+          <text class='iconfont icon-choose' wx-if="{{index === curLang.index}}"></text>
+        </view>
+        
+    </view>
+  </view>
+  
+</view>

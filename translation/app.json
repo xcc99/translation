@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/translation/translation"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#9370DB",
+    "navigationBarTitleText": "番译",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#F8F8FF",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "backgroundColor": "#E6E6FA",
+    "selectedColor": "#778899",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+      "pagePath": "pages/history/history",
+      "text": "历史"
+    }
+   ]
+    
+  }
+}

@@ -1,0 +1,10 @@
+<view class='contains page-history'>
+  <view class='title'>历史记录</view>
+  <view wx:for="{{history}}" wx:key='index' bindtap='chooseItem' data-query='{{item.query}}' >
+    <view class='items'>
+      <text class='query'>{{item.query}}</text> 
+      <text class='result'>{{item.result}}</text>
+    </view>
+    
+  </view>
+</view>

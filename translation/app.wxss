@@ -1,0 +1,32 @@
+/**app.wxss**/
+/* @import "./assets/iconfont/iconfont.wxss" ; */
+
+@font-face {
+  font-family: 'iconfont';  /* project id 883287 */
+  src: url('//at.alicdn.com/t/font_883287_st1mywfzuds.eot');
+  src: url('//at.alicdn.com/t/font_883287_st1mywfzuds.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_883287_st1mywfzuds.woff') format('woff'),
+  url('//at.alicdn.com/t/font_883287_st1mywfzuds.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_883287_st1mywfzuds.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:40rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-down:before { content: "\e7e1"; }
+.icon-close:before { content: "\e605"; }
+.icon-choose:before { content: "\e62f"; }
+.icon-copy:before { content: "\e63e"; }
+.icon-fuzhi:before { content: "\e6dc"; }
+.icon-switch:before { content: "\e679"; }
+.icon-switch1:before { content: "\e608"; }
+
+.container {
+  height: 100vh;
+  font-size: 30rpx;
+  background-color: #f8f8ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
